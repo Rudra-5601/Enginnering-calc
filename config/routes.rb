@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get "mech/sheet_metal"
+  get "mech/material_selection"
+  get "mech/product_design"
   resources :pages
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
