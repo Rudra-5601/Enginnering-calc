@@ -1,8 +1,9 @@
+<div class="container">    
 <p style="color: green"><%= notice %></p>
 
 <% content_for :title, "Pages" %>
 
-<h1>Pages</h1>
+<h1>Todo</h1>
 
 <div id="pages">
   <% @pages.each do |page| %>
@@ -14,3 +15,4 @@
 </div>
 
 <%= link_to "New page", new_page_path %>
+</div>
